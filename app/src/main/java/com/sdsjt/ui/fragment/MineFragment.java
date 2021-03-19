@@ -46,7 +46,7 @@ public class MineFragment extends BaseFragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://blog.csdn.net/nhce12931"));
+                intent.setData(Uri.parse("https://github.com/MarkSDGD/AndroidBF"));
                 startActivity(intent);
             }
         });

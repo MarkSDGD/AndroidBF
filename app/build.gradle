@@ -26,17 +26,17 @@ android {
 
     signingConfigs {
         release{
-            keyAlias 'heydsdt'
-            keyPassword 'ydsdt123456'
-            storeFile file('D:/apk_signer/CMCCSJT/keystore-heydsdt')
-            storePassword 'ydsdt123456'
+            storeFile file("./keystore/release.keystore")
+            storePassword "testres"
+            keyAlias "testres"
+            keyPassword "testres"
         }
     }
 
     buildTypes {
 
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
