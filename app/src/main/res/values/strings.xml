@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">海看无限</string>
+
+    <string name="no_news_now">目前没有最新数据了</string>
+
+
+    <string name="net_unavailable">网络不可用</string>
+
+    <string name="feed_back">用户反馈</string>
+    <string name="settings">系统设置</string>
+
+    //search
+    <string name="delete_all_search_history">是否删除所有搜索历史记录?</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="change_another">换一批</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear">清空</string>
+    <string name="action_search">搜索</string>
+    <string name="button_enter">确定</string>
+    <string name="button_cancel">取消</string>
+</resources>

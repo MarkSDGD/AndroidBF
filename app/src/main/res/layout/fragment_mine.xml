@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.mark.uibox.HeaderZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--头部背景-->
+            <ImageView
+                android:id="@+id/iv_bg"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/mine_bg" />
+
+            <include
+                layout="@layout/item_layout_my"
+                android:id="@+id/head_layout"
+                android:layout_width="280dp"
+                android:layout_below="@+id/iv_bg"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-100dp"
+                android:layout_centerHorizontal="true"/>
+
+            <!--内容-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_layout"
+                android:orientation="vertical">
+
+                <View style="@style/CommonDividerStyle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/common_span" />
+
+                <View style="@style/CommonDividerStyle" />
+
+                <!--项目地址-->
+                <RelativeLayout style="@style/CommonMyRow"
+                    android:id="@+id/project_layout">
+
+                    <TextView
+                        style="@style/CommonMyRowTV"
+                        android:text="项目地址"
+                        android:textColor="@color/news_tag_border_blue" />
+
+                    <ImageView
+                        style="@style/CommonMyRowArrow"
+                        android:background="@mipmap/setting_arrow" />
+
+                </RelativeLayout>
+
+                <View style="@style/CommonDividerStyle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/common_span" />
+
+                <View style="@style/CommonDividerStyle" />
+
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    style="@style/CommonDividerStyle" />
+
+                <!--CSDN博客-->
+                <RelativeLayout
+                    style="@style/CommonMyRow"
+                    android:id="@+id/csdn_layout">
+
+                    <TextView
+                        style="@style/CommonMyRowTV"
+
+                        android:text="CSDN博客"
+                        android:textColor="@color/news_tag_border_blue" />
+
+                    <ImageView
+                        android:id="@+id/iv_jd_arrow"
+                        style="@style/CommonMyRowArrow"
+                        android:background="@mipmap/setting_arrow" />
+
+                    <TextView
+                        style="@style/MineFunctionTvRight"
+                        android:layout_toLeftOf="@+id/iv_jd_arrow"
+                         />
+
+                </RelativeLayout>
+
+                <View style="@style/CommonDividerStyle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/common_span" />
+
+                <View style="@style/CommonDividerStyle" />
+
+
+                <RelativeLayout style="@style/CommonMyRow">
+
+                    <TextView
+                        style="@style/CommonMyRowTV"
+                        android:text="检查更新"
+                        android:textColor="@color/common_text_color" />
+
+                    <ImageView
+                        style="@style/CommonMyRowArrow"
+                        android:background="@mipmap/setting_arrow" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    style="@style/CommonDividerStyle" />
+
+                <!--用户反馈-->
+                <RelativeLayout style="@style/CommonMyRow">
+
+                    <TextView
+                        style="@style/CommonMyRowTV"
+                        android:text="@string/feed_back"
+                        android:textColor="@color/common_text_color" />
+
+                    <ImageView
+                        style="@style/CommonMyRowArrow"
+                        android:background="@mipmap/setting_arrow" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    style="@style/CommonDividerStyle" />
+
+                <!--系统设置-->
+                <RelativeLayout style="@style/CommonMyRow">
+
+                    <TextView
+                        style="@style/CommonMyRowTV"
+                        android:text="@string/settings"
+                        android:textColor="@color/common_text_color" />
+
+                    <ImageView
+                        style="@style/CommonMyRowArrow"
+                        android:background="@mipmap/setting_arrow" />
+
+                </RelativeLayout>
+
+                <View style="@style/CommonDividerStyle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/common_span" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.mark.uibox.HeaderZoomLayout>
+
+</LinearLayout>

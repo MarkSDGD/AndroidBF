@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/status_bar_view"
+        android:layout_width="match_parent"
+        android:background="@color/status_color_red"
+        android:layout_height="0dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+           <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/status_color_red"
+                app:layout_scrollFlags="scroll|snap"
+                app:titleTextColor="@color/white"
+                app:title="公众号" >
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                app:layout_scrollFlags="scroll|snap"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" />
+
+
+            <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/tab_channel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/status_color_red"
+                app:tl_textsize="16dp"
+                app:tl_tab_padding="20dp"
+                app:tl_indicator_color="#ffffffff"
+                app:tl_indicator_height="3dp"
+                app:tl_textSelectColor="#ffffffff"
+                app:tl_textUnselectColor="#ffffffff"
+                app:tl_underline_height="0dp"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
+
+

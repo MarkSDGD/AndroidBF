@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- <color name="colorPrimary">#D33D3C</color>
+   <color name="colorPrimaryDark">#D33D3C</color>
+   <color name="colorAccent">#D33D3C</color>
+   <color name="status_color_red">#D33D3C</color>-->
+
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#00ACC1</color>
+    <color name="status_color_red">#FF0000</color>
+
+    <color name="common_grey">#515051</color>
+
+    <color name="gray">#9cffffff</color>
+
+    <color name="common_text_color">#ff222222</color>
+    <color name="hint_text_color">#ff666666</color>
+    <color name="news_tag_border_blue">#3091D8</color>
+
+    <color name="divider">#ffd8d8d8</color>
+
+    <color name="tip_view_bg">#D5E8F6</color>
+    <color name="tip_view_text_color">#4592C6</color>
+
+    <color name="common_divider">#E6E8E7</color>
+    <color name="common_span">#F3F5F4</color>
+
+    <color name="colorBarText">#F0F5E5</color>
+
+    <color name="search_bar_bg">#90C5F0</color>
+</resources>
