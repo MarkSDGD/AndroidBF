@@ -1,8 +1,12 @@
 # AndroidBF-----Android开发基础框架
 [![](https://img.shields.io/badge/CSDN-MarkSDGD-green)](https://blog.csdn.net/nhce12931)
 [![](https://img.shields.io/badge/download-apkdemo-blue)](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/app-release.apk)
-[![](https://img.shields.io/badge/license-Apache--2.0-green)](http://www.apache.org/licenses/LICENSE-2.0.html)
-[![](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/MarkSDGD/AndroidBF/releases/tag/1.0.0)
+[![](https://img.shields.io/github/license/MarkSDGD/AndroidBF)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![](https://img.shields.io/github/v/release/MarkSDGD/AndroidBF)](https://github.com/MarkSDGD/AndroidBF/releases)
+![](https://img.shields.io/github/last-commit/MarkSDGD/AndroidBF)
+![](https://img.shields.io/github/languages/top/MarkSDGD/AndroidBF)
+![](https://img.shields.io/github/repo-size/MarkSDGD/AndroidBF)
+
 
 ## 前言
 **AndroidBF 是一个基于AndroidX,能够简化android开发，封装集成了部分主流开源框架，采用MVP架构和material design方式的基础项目。**  
