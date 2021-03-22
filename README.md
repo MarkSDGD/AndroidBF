@@ -1,5 +1,8 @@
 # AndroidBF-----Android开发基础框架
-
+[![](https://img.shields.io/badge/csdn-MarkSDGD-green)](https://blog.csdn.net/nhce12931)
+[![](https://img.shields.io/badge/download-apkdemo-blue)](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/app-release.apk)
+[![](https://img.shields.io/badge/license-Apache-2.0-green)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/MarkSDGD/AndroidBF/releases/tag/1.0.0)
 
 ## 前言
 **AndroidBF 是一个基于AndroidX,能够简化android开发，封装集成了部分主流开源框架，采用MVP架构和material design方式的基础项目。**  
@@ -63,3 +66,24 @@
  
 ## 作者
  [[csdn 博客地址](https://blog.csdn.net/nhce12931)]
+ 
+## License
+
+```
+Copyright 2017-2020 Aries Hoo
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+
+
