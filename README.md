@@ -39,18 +39,24 @@ AndroidBF 是一个基于AndroidX,能够简化android开发，封装集成了部
 ## 录屏gif
 
 ### 操作视频录屏
+
+1. 启动到首页
 ![](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/v111.gif)
 
+2. 首页-公众号-折叠-我的 tab页沉浸式效果切换
 ![](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/v222.gif)
 
+3. material design 效果以及子页面加载效果
 ![](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/v333.gif)
 
+4. 折叠效果展示
 ![](https://raw.githubusercontent.com/MarkSDGD/repositoryResources/main/AndroidBF/v444.gif)
 
 
 ## 说明
- 1. apk demo 中公众号页面用到了 [[wanandroid 网站](https://www.wanandroid.com)] 提供的api 接口。
+ 1. apk demo 中公众号页面用到了 [[wanandroid 网站](https://www.wanandroid.com)] 提供的api 接口测试数据。
  2. 感谢项目中的开源框架提供者。
+ 3. 对banner2 + viewpager2 轮播图框架进行了拓展，兼容了banner+viewpager 效果。
   
  
 ## 作者
